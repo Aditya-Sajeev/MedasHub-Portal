@@ -1,0 +1,11 @@
+APIs
+
+API | Endpoint | Description
+
+Register for an event by a member | POST https://medashub.com/api/groups/{groupId}/events | Must be a member to register
+
+View event registrations by group admin | GET  https://medashub.com/api/groups/{groupId}/events/{eventId} | Must be a group admin
+
+Create registration | POST https://medashub.com/api/groups/{groupId}/events/{eventId}/registration/{registrationId} | Must be member or guest
+
+ 
